@@ -54,6 +54,7 @@ group :production do
   # Use unicorn as the app server
   gem 'unicorn'
   gem 'unicorn-worker-killer'
+  gem 'rails_12factor'
 end
 
 gem 'yajl-ruby'
